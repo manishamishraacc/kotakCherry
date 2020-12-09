@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61612" started-at="2020-12-09T14:02:05Z" finished-at="2020-12-09T14:03:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61612" started-at="2020-12-09T14:02:05Z" finished-at="2020-12-09T14:03:07Z">
+      <class name="scenarios.TestCase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scenarios.TestCase@f6c48ac]" name="setUp" is-config="true" duration-ms="28121" started-at="2020-12-09T14:02:05Z" finished-at="2020-12-09T14:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scenarios.TestCase@f6c48ac]" name="testCase" duration-ms="33405" started-at="2020-12-09T14:02:33Z" data-provider="depositValue" finished-at="2020-12-09T14:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:scenarios.TestCase@f6c48ac]" name="screenShot" is-config="true" duration-ms="2" started-at="2020-12-09T14:03:07Z" finished-at="2020-12-09T14:03:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase status=SUCCESS method=TestCase.testCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scenarios.TestCase@f6c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- scenarios.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
