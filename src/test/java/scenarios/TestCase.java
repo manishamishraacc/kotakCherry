@@ -102,6 +102,6 @@ public class TestCase extends TestBase {
 			} 
 		}
 		
-	//	driver.quit();
+		driver.quit();
 		}
 }
