@@ -21,14 +21,9 @@ public class Deposit extends DepositPageLocators {
 		
 		js.executeScript("arguments[0].click();", amountText);
 		 js.executeScript("arguments[0].value ='';", amountvalue);
-		 System.out.println("2");
+
 		  js.executeScript("arguments[0].value='"+amount+"';", amountvalue);
 		
-	
-		/*
-		 * new WebDriverWait(driver,30).until(ExpectedConditions.elementToBeClickable(
-		 * amountText)); amountText.clear(); amountText.sendKeys(amount);
-		 */
 	}
 	public void clickProceed() {
 	proceedButton.click();
